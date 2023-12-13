@@ -6,7 +6,7 @@ export interface Config {
   };
 };
 
-export default function fontSizesMatrix(config: Config): PluginCreator {
+export function fontSizesMatrix(config: Config): PluginCreator {
   return function ({ addUtilities }) {
     const newUtilities = Object.entries(config).reduce(
       (utilities, [classKey, breakpointsSizes]) => {
