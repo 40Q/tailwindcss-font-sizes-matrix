@@ -1,6 +1,6 @@
 {
   "name": "@40q/tailwindcss-font-sizes-matrix",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
