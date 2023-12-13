@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.fontSizesMatrix = void 0;
 ;
 function fontSizesMatrix(config) {
     return function ({ addUtilities }) {
@@ -25,4 +26,4 @@ function fontSizesMatrix(config) {
         addUtilities(newUtilities);
     };
 }
-exports.default = fontSizesMatrix;
+exports.fontSizesMatrix = fontSizesMatrix;

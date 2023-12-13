@@ -13,7 +13,7 @@ yarn add @40q/tailwindcss-font-sizes-matrix
 
 2. Import the package in your tailwind configuration file.
 ```
-import fontSizeMatrix from "@40q/tailwindcss-font-sizes-matrix";
+import { fontSizesMatrix } from "@40q/tailwindcss-font-sizes-matrix";
 ```
 
 3. Disable Tailwind's default font sizes:
@@ -26,7 +26,7 @@ import fontSizeMatrix from "@40q/tailwindcss-font-sizes-matrix";
 4. Call the function in the plugins array and fill the configuration object. This example will generate the class `text-xs`.
 ```
   plugins: [
-    fontSizeMatrix({
+    fontSizesMatrix({
       xs: {
         default: {
           fontSize: "0.75rem",

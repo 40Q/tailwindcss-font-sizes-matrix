@@ -6,4 +6,4 @@ export interface Config {
         };
     };
 }
-export default function fontSizesMatrix(config: Config): PluginCreator;
+export declare function fontSizesMatrix(config: Config): PluginCreator;
