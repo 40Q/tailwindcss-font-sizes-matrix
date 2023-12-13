@@ -1,7 +1,7 @@
 {
   "name": "@40q/tailwindcss-font-sizes-matrix",
   "version": "1.0.4",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "deploy": "yarn build && yarn publish --access public"
